@@ -24,7 +24,6 @@ public class CoursesController {
                 Map.of("title", "Spring Security", "description", "Advanced Security", "user", auth.getName())
         );
     }
-
     @PostMapping("/courses")
     @PreAuthorize("hasRole('ADMIN')")
     public Map<String, String> addCourse(@RequestBody Map<String, String> course) {
