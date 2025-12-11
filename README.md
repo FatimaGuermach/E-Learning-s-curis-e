@@ -1,4 +1,4 @@
-#Overview
+## Overview
 This README documents the implementation of TP 3: Securing an E-Learning Application using OAuth2 and OpenID Connect (OIDC) with Keycloak as the identity server, Spring Boot as the backend API, and React as the frontend SPA. The goal is to create a secure platform where:
 
 STUDENT users can view courses.
